@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include "GameObject.h"
-
+#include "GameStateMachine.h"
 class Game
 {
 public:
@@ -56,13 +56,18 @@ public:
   {
     return m_pRenderer;
   }
+  // 获取状态机
+  GameStateMachine *getStateMachine()
+  {
+    return m_pGameStateMachine;
+  }
 
 protected:
   void onInitialized();
 
 private:
-  Game();
-  ~Game();
+  Game() {}
+  ~Game() {}
 
 private:
   static Game *s_pInstance;            // 游戏实例
@@ -70,7 +75,8 @@ private:
   SDL_Renderer *m_pRenderer = nullptr; //渲染器指针
   bool m_bRunning = false;             // 游戏是否在运行
 
-  std::vector<GameObject *> m_gameObjects;
+  // 游戏状态机
+  GameStateMachine *m_pGameStateMachine = nullptr;
 };
 
 // 简化获取游戏实例方式

@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/zyh/文档/git/SDL2Game/build",
+  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/GameStateMachine.cpp.o -c /home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp",
+  "file": "/home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp"
+},
+{
+  "directory": "/home/zyh/文档/git/SDL2Game/build",
   "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/InputHandler.cpp.o -c /home/zyh/文档/git/SDL2Game/src/InputHandler.cpp",
   "file": "/home/zyh/文档/git/SDL2Game/src/InputHandler.cpp"
 },
@@ -18,6 +23,16 @@
   "directory": "/home/zyh/文档/git/SDL2Game/build",
   "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/LoaderParams.cpp.o -c /home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp",
   "file": "/home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp"
+},
+{
+  "directory": "/home/zyh/文档/git/SDL2Game/build",
+  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/MenuState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/MenuState.cpp",
+  "file": "/home/zyh/文档/git/SDL2Game/src/MenuState.cpp"
+},
+{
+  "directory": "/home/zyh/文档/git/SDL2Game/build",
+  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/PlayState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PlayState.cpp",
+  "file": "/home/zyh/文档/git/SDL2Game/src/PlayState.cpp"
 },
 {
   "directory": "/home/zyh/文档/git/SDL2Game/build",

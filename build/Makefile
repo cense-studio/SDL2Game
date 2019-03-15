@@ -177,6 +177,33 @@ src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/GameStateMachine.o: src/GameStateMachine.cpp.o
+
+.PHONY : src/GameStateMachine.o
+
+# target to build an object file
+src/GameStateMachine.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/GameStateMachine.cpp.o
+.PHONY : src/GameStateMachine.cpp.o
+
+src/GameStateMachine.i: src/GameStateMachine.cpp.i
+
+.PHONY : src/GameStateMachine.i
+
+# target to preprocess a source file
+src/GameStateMachine.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/GameStateMachine.cpp.i
+.PHONY : src/GameStateMachine.cpp.i
+
+src/GameStateMachine.s: src/GameStateMachine.cpp.s
+
+.PHONY : src/GameStateMachine.s
+
+# target to generate assembly for a file
+src/GameStateMachine.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/GameStateMachine.cpp.s
+.PHONY : src/GameStateMachine.cpp.s
+
 src/InputHandler.o: src/InputHandler.cpp.o
 
 .PHONY : src/InputHandler.o
@@ -230,6 +257,60 @@ src/LoaderParams.s: src/LoaderParams.cpp.s
 src/LoaderParams.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/LoaderParams.cpp.s
 .PHONY : src/LoaderParams.cpp.s
+
+src/MenuState.o: src/MenuState.cpp.o
+
+.PHONY : src/MenuState.o
+
+# target to build an object file
+src/MenuState.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuState.cpp.o
+.PHONY : src/MenuState.cpp.o
+
+src/MenuState.i: src/MenuState.cpp.i
+
+.PHONY : src/MenuState.i
+
+# target to preprocess a source file
+src/MenuState.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuState.cpp.i
+.PHONY : src/MenuState.cpp.i
+
+src/MenuState.s: src/MenuState.cpp.s
+
+.PHONY : src/MenuState.s
+
+# target to generate assembly for a file
+src/MenuState.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuState.cpp.s
+.PHONY : src/MenuState.cpp.s
+
+src/PlayState.o: src/PlayState.cpp.o
+
+.PHONY : src/PlayState.o
+
+# target to build an object file
+src/PlayState.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PlayState.cpp.o
+.PHONY : src/PlayState.cpp.o
+
+src/PlayState.i: src/PlayState.cpp.i
+
+.PHONY : src/PlayState.i
+
+# target to preprocess a source file
+src/PlayState.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PlayState.cpp.i
+.PHONY : src/PlayState.cpp.i
+
+src/PlayState.s: src/PlayState.cpp.s
+
+.PHONY : src/PlayState.s
+
+# target to generate assembly for a file
+src/PlayState.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PlayState.cpp.s
+.PHONY : src/PlayState.cpp.s
 
 src/Player.o: src/Player.cpp.o
 
@@ -354,12 +435,21 @@ help:
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/GameStateMachine.o"
+	@echo "... src/GameStateMachine.i"
+	@echo "... src/GameStateMachine.s"
 	@echo "... src/InputHandler.o"
 	@echo "... src/InputHandler.i"
 	@echo "... src/InputHandler.s"
 	@echo "... src/LoaderParams.o"
 	@echo "... src/LoaderParams.i"
 	@echo "... src/LoaderParams.s"
+	@echo "... src/MenuState.o"
+	@echo "... src/MenuState.i"
+	@echo "... src/MenuState.s"
+	@echo "... src/PlayState.o"
+	@echo "... src/PlayState.i"
+	@echo "... src/PlayState.s"
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"

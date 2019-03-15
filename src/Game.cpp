@@ -3,20 +3,14 @@
 #include "InputHandler.h"
 #include "Player.h"
 #include "Enemy.h"
+#include "MenuState.h"
+#include "PlayState.h"
 #include <iostream>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 #include <SDL2/SDL_ttf.h>
 
 Game *Game::s_pInstance = nullptr;
-
-Game::Game(/* args */)
-{
-}
-
-Game::~Game()
-{
-}
 
 // 初始化
 bool Game::init(const std::string &title,
@@ -85,10 +79,15 @@ bool Game::init(const std::string &title,
     // 初始化游戏手柄事件监听器
     IInputHandler->initialiseJoysticks();
 
+    // 初始化游戏状态机
+    m_pGameStateMachine = new GameStateMachine;
+
+    // 设置初始状态为菜单状态
+    m_pGameStateMachine->pushState(new MenuState());
+
     std::cout << "所有设备初始化成功！\n";
     // 运行标志设置为真
     m_bRunning = true;
-    onInitialized();
     return true;
 }
 
@@ -96,26 +95,14 @@ bool Game::init(const std::string &title,
 void Game::render()
 {
     SDL_RenderClear(m_pRenderer);
-    if (!m_gameObjects.empty())
-    {
-        for (std::size_t i = 0; i != m_gameObjects.size(); i++)
-        {
-            m_gameObjects[i]->draw();
-        }
-    }
+    m_pGameStateMachine->render();
     SDL_RenderPresent(m_pRenderer);
 }
 
 // 更新
 void Game::update()
 {
-    if (!m_gameObjects.empty())
-    {
-        for (std::size_t i = 0; i != m_gameObjects.size(); i++)
-        {
-            m_gameObjects[i]->update();
-        }
-    }
+    m_pGameStateMachine->update();
 }
 
 // 处理事件
@@ -127,15 +114,9 @@ void Game::handleEvents()
 // 清除
 void Game::clean()
 {
-    if (!m_gameObjects.empty())
-    {
-        for (std::size_t i = 0; i != m_gameObjects.size(); i++)
-        {
-            m_gameObjects[i]->clean();
-            std::cout << "释放游对象:" << i << "\n";
-        }
-    }
-    std::cout << "正在清除游戏资源。\n";
+    m_pGameStateMachine->popAllState();
+
+    InputHandler::purge();
     TextureManager::purge();
 
     SDL_DestroyRenderer(m_pRenderer);
@@ -148,12 +129,4 @@ void Game::clean()
     Mix_Quit();
     IMG_Quit();
     SDL_Quit();
-}
-
-// 初始化成功时调用
-void Game::onInitialized()
-{
-    ITextureManager->load("../assets/animate.png", "animate", m_pRenderer);
-    m_gameObjects.push_back(new Player(new LoaderParams(0, 0, 128, 82, "animate")));
-    m_gameObjects.push_back(new Enemy(new LoaderParams(0, 200, 128, 82, "animate")));
 }

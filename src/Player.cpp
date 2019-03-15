@@ -20,16 +20,21 @@ void Player::update()
 
     if (IInputHandler->isKeyDown(SDL_SCANCODE_LEFT))
     {
-        m_acceleration.setX(-0.02f);
+        m_acceleration.setX(-0.05f);
     }
     if (IInputHandler->isKeyDown(SDL_SCANCODE_RIGHT))
     {
-        m_acceleration.setX(0.02f);
+        m_acceleration.setX(0.05f);
     }
     if (m_position.getX() > 800)
     {
         m_position.setX(0);
     }
+    else if (m_position.getX() < 0)
+    {
+        m_position.setX(800);
+    }
+
     // 调用基类更新方法
     SDLGameObject::update();
 }

@@ -50,37 +50,41 @@ public:
   // 获得某个手柄的方向键上下方向状态 stick: 1 左方向键 2 右方向键
   int yvalue(int joy, int stick);
   // 获得某个手柄的某个按钮状态
-  bool getButtonState(int joy, int buttonID)
+  bool getJoyButtonState(int joy, int buttonID)
   {
     return m_joyButtonStates[joy][buttonID];
+  }
+
+  // 获得鼠标位置
+  const Vector2D &getMousePosition() const
+  {
+    return m_mousePosition;
   }
   // 获得鼠标按钮状态
   bool getMouseButtonState(int buttonNumber)
   {
     return m_mouseButtonStates[buttonNumber];
   }
-  // 获得鼠标位置
-  Vector2D getMouseButtonPosition(){
-    return m_mousePosition;
-  }
+
   // 获得键盘按键状态
-  bool isKeyDown(SDL_Scancode key){
-    if(m_keysStates)
-    {
-      if(m_keysStates[key] == 1)
-      {
-        return true;
-      }
-      else
-      {
-        return false;
-      }
-    }
-    return false;
-  }
+  bool isKeyDown(SDL_Scancode key);
+
 private:
   InputHandler();
   ~InputHandler() {}
+
+  // 处理键盘事件
+  //void onKeyDown();
+  //void onKeyUp();
+  // 处理鼠标事件
+  void onMouseMove(SDL_Event &event);
+  void onMouseButtonDown(SDL_Event &event);
+  void onMouseButtonUp(SDL_Event &event);
+  // 处理手柄事件
+  void onJoystickAxisMove(SDL_Event &event);
+  void onJoystickButtonDown(SDL_Event &event);
+  void onJoystickButtonUp(SDL_Event &event);
+
   static InputHandler *s_pInstance;
 
 private:
@@ -99,9 +103,9 @@ private:
   std::vector<bool> m_mouseButtonStates;
   // 鼠标位置
   Vector2D m_mousePosition;
-  
+
   // 键盘按键状态
-  const Uint8 * m_keysStates;
+  const Uint8 *m_keysStates;
 };
 // 获取游戏输入处理器实例
 #define IInputHandler InputHandler::Instance()

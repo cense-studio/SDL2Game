@@ -83,9 +83,22 @@ CMakeFiles/Game.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/Game.cpp.s"
 	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyh/文档/git/SDL2Game/src/Game.cpp -o CMakeFiles/Game.dir/src/Game.cpp.s
 
+CMakeFiles/Game.dir/src/GameStateMachine.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/GameStateMachine.cpp.o: ../src/GameStateMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/GameStateMachine.cpp.o"
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/GameStateMachine.cpp.o -c /home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp
+
+CMakeFiles/Game.dir/src/GameStateMachine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/GameStateMachine.cpp.i"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp > CMakeFiles/Game.dir/src/GameStateMachine.cpp.i
+
+CMakeFiles/Game.dir/src/GameStateMachine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/GameStateMachine.cpp.s"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp -o CMakeFiles/Game.dir/src/GameStateMachine.cpp.s
+
 CMakeFiles/Game.dir/src/InputHandler.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/InputHandler.cpp.o: ../src/InputHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/InputHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/src/InputHandler.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/InputHandler.cpp.o -c /home/zyh/文档/git/SDL2Game/src/InputHandler.cpp
 
 CMakeFiles/Game.dir/src/InputHandler.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/Game.dir/src/InputHandler.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/src/LoaderParams.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/LoaderParams.cpp.o: ../src/LoaderParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/src/LoaderParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/src/LoaderParams.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/LoaderParams.cpp.o -c /home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp
 
 CMakeFiles/Game.dir/src/LoaderParams.cpp.i: cmake_force
@@ -109,9 +122,35 @@ CMakeFiles/Game.dir/src/LoaderParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/LoaderParams.cpp.s"
 	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp -o CMakeFiles/Game.dir/src/LoaderParams.cpp.s
 
+CMakeFiles/Game.dir/src/MenuState.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/MenuState.cpp.o: ../src/MenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/src/MenuState.cpp.o"
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/MenuState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/MenuState.cpp
+
+CMakeFiles/Game.dir/src/MenuState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/MenuState.cpp.i"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyh/文档/git/SDL2Game/src/MenuState.cpp > CMakeFiles/Game.dir/src/MenuState.cpp.i
+
+CMakeFiles/Game.dir/src/MenuState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/MenuState.cpp.s"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyh/文档/git/SDL2Game/src/MenuState.cpp -o CMakeFiles/Game.dir/src/MenuState.cpp.s
+
+CMakeFiles/Game.dir/src/PlayState.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/PlayState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/src/PlayState.cpp.o"
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/PlayState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PlayState.cpp
+
+CMakeFiles/Game.dir/src/PlayState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/PlayState.cpp.i"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyh/文档/git/SDL2Game/src/PlayState.cpp > CMakeFiles/Game.dir/src/PlayState.cpp.i
+
+CMakeFiles/Game.dir/src/PlayState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/PlayState.cpp.s"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyh/文档/git/SDL2Game/src/PlayState.cpp -o CMakeFiles/Game.dir/src/PlayState.cpp.s
+
 CMakeFiles/Game.dir/src/Player.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/Player.cpp.o: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/src/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/src/Player.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/Player.cpp.o -c /home/zyh/文档/git/SDL2Game/src/Player.cpp
 
 CMakeFiles/Game.dir/src/Player.cpp.i: cmake_force
@@ -124,7 +163,7 @@ CMakeFiles/Game.dir/src/Player.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/src/SDLGameObject.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/SDLGameObject.cpp.o: ../src/SDLGameObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/src/SDLGameObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/src/SDLGameObject.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/SDLGameObject.cpp.o -c /home/zyh/文档/git/SDL2Game/src/SDLGameObject.cpp
 
 CMakeFiles/Game.dir/src/SDLGameObject.cpp.i: cmake_force
@@ -137,7 +176,7 @@ CMakeFiles/Game.dir/src/SDLGameObject.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/src/TextureManager.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/TextureManager.cpp.o: ../src/TextureManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/src/TextureManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/src/TextureManager.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/TextureManager.cpp.o -c /home/zyh/文档/git/SDL2Game/src/TextureManager.cpp
 
 CMakeFiles/Game.dir/src/TextureManager.cpp.i: cmake_force
@@ -150,7 +189,7 @@ CMakeFiles/Game.dir/src/TextureManager.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/src/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
 	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/src/main.cpp.o -c /home/zyh/文档/git/SDL2Game/src/main.cpp
 
 CMakeFiles/Game.dir/src/main.cpp.i: cmake_force
@@ -165,8 +204,11 @@ CMakeFiles/Game.dir/src/main.cpp.s: cmake_force
 Game_OBJECTS = \
 "CMakeFiles/Game.dir/src/Enemy.cpp.o" \
 "CMakeFiles/Game.dir/src/Game.cpp.o" \
+"CMakeFiles/Game.dir/src/GameStateMachine.cpp.o" \
 "CMakeFiles/Game.dir/src/InputHandler.cpp.o" \
 "CMakeFiles/Game.dir/src/LoaderParams.cpp.o" \
+"CMakeFiles/Game.dir/src/MenuState.cpp.o" \
+"CMakeFiles/Game.dir/src/PlayState.cpp.o" \
 "CMakeFiles/Game.dir/src/Player.cpp.o" \
 "CMakeFiles/Game.dir/src/SDLGameObject.cpp.o" \
 "CMakeFiles/Game.dir/src/TextureManager.cpp.o" \
@@ -177,15 +219,18 @@ Game_EXTERNAL_OBJECTS =
 
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/Enemy.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/Game.cpp.o
+/home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/GameStateMachine.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/InputHandler.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/LoaderParams.cpp.o
+/home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/MenuState.cpp.o
+/home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/PlayState.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/Player.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/SDLGameObject.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/TextureManager.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/src/main.cpp.o
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/build.make
 /home/zyh/文档/git/bin/Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/zyh/文档/git/bin/Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zyh/文档/git/SDL2Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /home/zyh/文档/git/bin/Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

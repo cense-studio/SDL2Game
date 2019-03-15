@@ -17,130 +17,32 @@ void InputHandler::update()
     SDL_Event event;
     while (SDL_PollEvent(&event))
     {
-        if (event.type == SDL_QUIT)
+        switch (event.type)
         {
+        case SDL_QUIT:
             IGame->quit();
+            break;
+        case SDL_JOYAXISMOTION:
+            onJoystickAxisMove(event);
+            break;
+        case SDL_JOYBUTTONDOWN:
+            onJoystickButtonDown(event);
+            break;
+        case SDL_JOYBUTTONUP:
+            onJoystickButtonUp(event);
+            break;
+        case SDL_MOUSEMOTION:
+            onMouseMove(event);
+            break;
+        case SDL_MOUSEBUTTONDOWN:
+            onMouseButtonDown(event);
+            break;
+        case SDL_MOUSEBUTTONUP:
+            onMouseButtonUp(event);
+            break;
+        default:
+            break;
         }
-        // 处理手柄方向键相关事件
-        if (event.type == SDL_JOYAXISMOTION) // 游戏操纵杆轴移动事件
-        {
-            int whichOne = event.jaxis.which; // 传递事件的是哪个操纵杆
-            // 左侧方向键左右移动
-            if (event.jaxis.axis == 0) // 0 左侧左右
-            {
-                if (event.jaxis.value > m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].first->setX(1);
-                }
-                else if (event.jaxis.value < -m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].first->setX(-1);
-                }
-                else
-                {
-                    m_joystickValues[whichOne].first->setX(0);
-                }
-            }
-            // 左侧方向键上下移动
-            if (event.jaxis.axis == 1) // 1 左侧上下
-            {
-                if (event.jaxis.value > m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].first->setY(1);
-                }
-                else if (event.jaxis.value < -m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].first->setY(-1);
-                }
-                else
-                {
-                    m_joystickValues[whichOne].first->setY(0);
-                }
-            }
-
-            // 右侧方向键左右移动
-            if (event.jaxis.axis == 3) // 右侧左右
-            {
-                if (event.jaxis.value > m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].second->setX(1);
-                }
-                else if (event.jaxis.value < -m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].second->setX(-1);
-                }
-                else
-                {
-                    m_joystickValues[whichOne].second->setX(0);
-                }
-            }
-
-            // 右侧方向键上下移动
-            if (event.jaxis.axis == 4) // 4 右侧上下
-            {
-                if (event.jaxis.value > m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].second->setY(1);
-                }
-                else if (event.jaxis.value < -m_joystickDeadZone)
-                {
-                    m_joystickValues[whichOne].second->setY(-1);
-                }
-                else
-                {
-                    m_joystickValues[whichOne].second->setY(0);
-                }
-            }
-        } // END:处理手柄方向键相关事件
-
-        // 处理手柄按钮相关事件
-        if (event.type == SDL_JOYBUTTONDOWN) // 按钮按下
-        {
-            int whichOne = event.jaxis.which;
-            m_joyButtonStates[whichOne][event.jbutton.button] = true;
-        }
-        if (event.type == SDL_JOYBUTTONUP) // 按钮松开
-        {
-            int whichOne = event.jaxis.which;
-            m_joyButtonStates[whichOne][event.jbutton.button] = false;
-        } // END:处理手柄按钮相关事件
-
-        // 处理鼠标相关事件
-        if (event.type == SDL_MOUSEMOTION) // 鼠标移动了
-        {
-        }
-
-        if (event.type == SDL_MOUSEBUTTONDOWN) // 鼠标按钮按下
-        {
-            if (event.button.button == SDL_BUTTON_LEFT)
-            {
-                m_mouseButtonStates[LEFT] = true;
-            }
-            if (event.button.button == SDL_BUTTON_MIDDLE)
-            {
-                m_mouseButtonStates[MIDDLE] = true;
-            }
-            if (event.button.button == SDL_BUTTON_RIGHT)
-            {
-                m_mouseButtonStates[RIGHT] = true;
-            }
-        }
-
-        if (event.type == SDL_MOUSEBUTTONUP) // 鼠标按钮松开
-        {
-            if (event.button.button == SDL_BUTTON_LEFT)
-            {
-                m_mouseButtonStates[LEFT] = false;
-            }
-            if (event.button.button == SDL_BUTTON_MIDDLE)
-            {
-                m_mouseButtonStates[MIDDLE] = false;
-            }
-            if (event.button.button == SDL_BUTTON_RIGHT)
-            {
-                m_mouseButtonStates[RIGHT] = false;
-            }
-        } // END:处理鼠标相关事件
     }
 }
 
@@ -229,4 +131,137 @@ int InputHandler::yvalue(int joy, int stick)
         }
     }
     return 0;
+}
+
+bool InputHandler::isKeyDown(SDL_Scancode key)
+{
+    if (m_keysStates)
+    {
+        if (m_keysStates[key] == 1)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    return false;
+}
+
+void InputHandler::onMouseMove(SDL_Event &event)
+{
+    m_mousePosition.setX((float)event.motion.x);
+    m_mousePosition.setY((float)event.motion.y);
+}
+void InputHandler::onMouseButtonDown(SDL_Event &event)
+{
+    if (event.button.button == SDL_BUTTON_LEFT)
+    {
+        m_mouseButtonStates[LEFT] = true;
+    }
+    if (event.button.button == SDL_BUTTON_MIDDLE)
+    {
+        m_mouseButtonStates[MIDDLE] = true;
+    }
+    if (event.button.button == SDL_BUTTON_RIGHT)
+    {
+        m_mouseButtonStates[RIGHT] = true;
+    }
+}
+void InputHandler::onMouseButtonUp(SDL_Event &event)
+{
+    if (event.button.button == SDL_BUTTON_LEFT)
+    {
+        m_mouseButtonStates[LEFT] = false;
+    }
+    if (event.button.button == SDL_BUTTON_MIDDLE)
+    {
+        m_mouseButtonStates[MIDDLE] = false;
+    }
+    if (event.button.button == SDL_BUTTON_RIGHT)
+    {
+        m_mouseButtonStates[RIGHT] = false;
+    }
+}
+
+void InputHandler::onJoystickAxisMove(SDL_Event &event)
+{
+    int whichOne = event.jaxis.which; // 传递事件的是哪个操纵杆
+    // 左侧方向键左右移动
+    if (event.jaxis.axis == 0) // 0 左侧左右
+    {
+        if (event.jaxis.value > m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].first->setX(1);
+        }
+        else if (event.jaxis.value < -m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].first->setX(-1);
+        }
+        else
+        {
+            m_joystickValues[whichOne].first->setX(0);
+        }
+    }
+    // 左侧方向键上下移动
+    if (event.jaxis.axis == 1) // 1 左侧上下
+    {
+        if (event.jaxis.value > m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].first->setY(1);
+        }
+        else if (event.jaxis.value < -m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].first->setY(-1);
+        }
+        else
+        {
+            m_joystickValues[whichOne].first->setY(0);
+        }
+    }
+
+    // 右侧方向键左右移动
+    if (event.jaxis.axis == 3) // 右侧左右
+    {
+        if (event.jaxis.value > m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].second->setX(1);
+        }
+        else if (event.jaxis.value < -m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].second->setX(-1);
+        }
+        else
+        {
+            m_joystickValues[whichOne].second->setX(0);
+        }
+    }
+
+    // 右侧方向键上下移动
+    if (event.jaxis.axis == 4) // 4 右侧上下
+    {
+        if (event.jaxis.value > m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].second->setY(1);
+        }
+        else if (event.jaxis.value < -m_joystickDeadZone)
+        {
+            m_joystickValues[whichOne].second->setY(-1);
+        }
+        else
+        {
+            m_joystickValues[whichOne].second->setY(0);
+        }
+    }
+} // END:处理手柄方向键相关事件
+void InputHandler::onJoystickButtonDown(SDL_Event &event)
+{
+    int whichOne = event.jaxis.which;
+    m_joyButtonStates[whichOne][event.jbutton.button] = true;
+}
+void InputHandler::onJoystickButtonUp(SDL_Event &event)
+{
+    int whichOne = event.jaxis.which;
+    m_joyButtonStates[whichOne][event.jbutton.button] = false;
 }
