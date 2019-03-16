@@ -687,6 +687,8 @@ Enemy.h
 /home/zyh/文档/git/SDL2Game/src/Enemy.h
 TextureManager.h
 /home/zyh/文档/git/SDL2Game/src/TextureManager.h
+InputHandler.h
+/home/zyh/文档/git/SDL2Game/src/InputHandler.h
 
 /home/zyh/文档/git/SDL2Game/src/Enemy.h
 SDLGameObject.h
@@ -703,6 +705,10 @@ Player.h
 /home/zyh/文档/git/SDL2Game/src/Player.h
 Enemy.h
 /home/zyh/文档/git/SDL2Game/src/Enemy.h
+MenuState.h
+/home/zyh/文档/git/SDL2Game/src/MenuState.h
+PlayState.h
+/home/zyh/文档/git/SDL2Game/src/PlayState.h
 iostream
 -
 SDL2/SDL_image.h
@@ -721,6 +727,8 @@ vector
 -
 GameObject.h
 /home/zyh/文档/git/SDL2Game/src/GameObject.h
+GameStateMachine.h
+/home/zyh/文档/git/SDL2Game/src/GameStateMachine.h
 
 /home/zyh/文档/git/SDL2Game/src/GameObject.h
 iostream
@@ -729,6 +737,20 @@ string
 -
 LoaderParams.h
 /home/zyh/文档/git/SDL2Game/src/LoaderParams.h
+
+/home/zyh/文档/git/SDL2Game/src/GameState.h
+string
+-
+
+/home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp
+GameStateMachine.h
+/home/zyh/文档/git/SDL2Game/src/GameStateMachine.h
+
+/home/zyh/文档/git/SDL2Game/src/GameStateMachine.h
+GameState.h
+/home/zyh/文档/git/SDL2Game/src/GameState.h
+vector
+-
 
 /home/zyh/文档/git/SDL2Game/src/InputHandler.cpp
 InputHandler.h
@@ -751,6 +773,36 @@ LoaderParams.h
 /home/zyh/文档/git/SDL2Game/src/LoaderParams.h
 string
 -
+
+/home/zyh/文档/git/SDL2Game/src/MenuState.cpp
+MenuState.h
+/home/zyh/文档/git/SDL2Game/src/MenuState.h
+PlayState.h
+/home/zyh/文档/git/SDL2Game/src/PlayState.h
+Game.h
+/home/zyh/文档/git/SDL2Game/src/Game.h
+InputHandler.h
+/home/zyh/文档/git/SDL2Game/src/InputHandler.h
+iostream
+-
+
+/home/zyh/文档/git/SDL2Game/src/MenuState.h
+GameState.h
+/home/zyh/文档/git/SDL2Game/src/GameState.h
+
+/home/zyh/文档/git/SDL2Game/src/PlayState.cpp
+PlayState.h
+/home/zyh/文档/git/SDL2Game/src/PlayState.h
+Game.h
+/home/zyh/文档/git/SDL2Game/src/Game.h
+InputHandler.h
+/home/zyh/文档/git/SDL2Game/src/InputHandler.h
+iostream
+-
+
+/home/zyh/文档/git/SDL2Game/src/PlayState.h
+GameState.h
+/home/zyh/文档/git/SDL2Game/src/GameState.h
 
 /home/zyh/文档/git/SDL2Game/src/Player.cpp
 Player.h

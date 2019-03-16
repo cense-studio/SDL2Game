@@ -11,9 +11,6 @@ void MenuState::update()
     if (IInputHandler->isKeyDown(SDL_SCANCODE_RETURN))
     {
         IGame->getStateMachine()->changeState(new PlayState());
-        IGame->getStateMachine()->pushState(new PlayState());
-        IGame->getStateMachine()->pushState(new PlayState());
-        IGame->getStateMachine()->pushState(new PlayState());
     }
 }
 
