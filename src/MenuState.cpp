@@ -43,10 +43,15 @@ bool MenuState::onEnter()
 
 bool MenuState::onExit()
 {
+    // 逐个清空对象资源
     for (size_t i = 0; i < m_gameObjects.size(); i++)
     {
         m_gameObjects[i]->clean();
     }
+    // 清空对象数组
+    m_gameObjects.clear();
+    // 销毁当前状态使用的纹理
+    ITextureManager->cleanAll();
     std::cout << "退出菜单状态\n";
     return true;
 }

@@ -84,16 +84,22 @@ elseif(MACOS)
 endif()
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
-set(_Debug_ 1)
+set(CMAKE_DEBUG 1)
 else()
-set(_Debug_ 0)
+set(CMAKE_DEBUG 0)
 endif()
 
-if(_Debug_)
+if(CMAKE_DEBUG)
 MESSAGE( STATUS "当前项目构建模式: Debug" )
 else()
 MESSAGE( STATUS "当前项目构建模式: Release" )
 endif()
+
+configure_file(
+    ${PROJECT_SOURCE_DIR}/src/Config.hc
+    ${PROJECT_SOURCE_DIR}/src/Config.h
+    LF
+)
 
 include_directories(
     ./include

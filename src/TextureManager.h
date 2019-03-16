@@ -4,7 +4,7 @@
 #include <SDL2/SDL.h>
 #include <string>
 #include <map>
-
+#include "Config.h"
 class TextureManager
 {
 public:
@@ -35,7 +35,7 @@ public:
                  int currentRow, int currentFrame,
                  SDL_Renderer *pRenderer, SDL_RendererFlip filp = SDL_FLIP_NONE);
   // 清空
-  void clean();
+  void cleanAll();
 
 private:
   TextureManager();

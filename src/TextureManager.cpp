@@ -1,6 +1,7 @@
 ﻿#include "TextureManager.h"
 #include <SDL2/SDL_image.h>
 #include <iterator>
+#include <iostream>
 
 TextureManager *TextureManager::s_pInstance = nullptr;
 
@@ -10,7 +11,7 @@ TextureManager::TextureManager()
 
 TextureManager::~TextureManager()
 {
-    clean();
+    cleanAll();
 }
 
 bool TextureManager::load(const std::string &fileName, const std::string &id, SDL_Renderer *pRenderer)
@@ -26,6 +27,9 @@ bool TextureManager::load(const std::string &fileName, const std::string &id, SD
     // 创建成功，将纹理存入Map中
     if (pTexture != nullptr)
     {
+#if DEBUG
+        std::cout << "纹理 " << id << " 已经被成功创建.\n";
+#endif
         m_textureMap[id] = pTexture;
         return true;
     }
@@ -52,13 +56,16 @@ void TextureManager::drawFrame(const std::string &id, int x, int y, int width, i
     SDL_RenderCopyEx(pRenderer, m_textureMap[id], &srcRect, &destRect, 0, 0, filp);
 }
 
-void TextureManager::clean()
+void TextureManager::cleanAll()
 {
     if (!m_textureMap.empty())
     {
         std::map<std::string, SDL_Texture *>::iterator it;
         for (it = m_textureMap.begin(); it != m_textureMap.end(); ++it)
         {
+#if DEBUG
+            std::cout << "纹理 " << it->first << " 已经被正确释放.\n";
+#endif
             SDL_DestroyTexture(it->second);
         }
         m_textureMap.clear();
