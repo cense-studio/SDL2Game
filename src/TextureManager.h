@@ -37,7 +37,7 @@ public:
   // 清空
   void cleanAll();
 
-  // 从纹理图表中清除纹理
+  // 从纹理图中清除纹理
   void cleanFromTextureMap(const std::string &id);
 
 private:

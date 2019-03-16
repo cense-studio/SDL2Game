@@ -25,13 +25,16 @@ void MenuButton::update()
         // 如果鼠标进入按钮，且左键按下了，按钮处于释放状态
         if (IInputHandler->getMouseButtonState(SDL_BUTTON_LEFT) && m_bReleased)
         {
-            m_callback();
             m_currentFrame = CLICKED;
             m_bReleased = false;
         }
         else if (!IInputHandler->getMouseButtonState(SDL_BUTTON_LEFT)) // 如果鼠标进入按钮且，左键没有按下
         {
-            m_bReleased = true;
+			if (!m_bReleased)
+			{
+				m_callback();
+				m_bReleased = true;
+			}
             m_currentFrame = MOUSE_OVER;
         }
     }

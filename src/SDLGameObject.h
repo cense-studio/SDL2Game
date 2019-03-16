@@ -15,6 +15,9 @@ class SDLGameObject : public GameObject
 	{
 		delete this;
 	}
+	Vector2D &getPosition() { return m_position; }
+	int getWidth() { return m_width; }
+	int getHeight() { return m_height; }
 
   protected:
 	// 位置向量

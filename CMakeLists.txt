@@ -132,10 +132,10 @@ set(DLL_FILES
         ${DLL_DIR}/sqlite3.dll )
 
     # 复制DLL文件到输出目录
-	#add_custom_command(TARGET ${PROJECT_NAME}  POST_BUILD 
-    #    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-	#	${DLL_FILES}
-	#	$<TARGET_FILE_DIR:${PROJECT_NAME}>)
+	add_custom_command(TARGET ${PROJECT_NAME}  POST_BUILD 
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+		${DLL_FILES}
+		$<TARGET_FILE_DIR:${PROJECT_NAME}>)
 
 	# 其它的一些文件复制
 #    add_custom_command(TARGET OLGame POST_BUILD 

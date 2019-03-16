@@ -22,6 +22,7 @@ private:
   static const std::string s_menuID;
 
   std::vector<GameObject *> m_gameObjects;
+  bool m_bExited = false;
 };
 
 #endif // !__Menu_State__

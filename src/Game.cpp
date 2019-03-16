@@ -39,7 +39,7 @@ bool Game::init(const std::string &title,
             {
                 std::cout << "渲染器创建成功！\n";
                 // 初始绘制颜色设置为白色
-                SDL_SetRenderDrawColor(m_pRenderer, 255, 0, 255, 255);
+                SDL_SetRenderDrawColor(m_pRenderer, 0, 0, 0, 255);
             }
             else
             {
@@ -78,14 +78,14 @@ bool Game::init(const std::string &title,
     }
     // 初始化游戏手柄事件监听器
     IInputHandler->initialiseJoysticks();
-
+    std::cout << "所有设备初始化成功！\n";
+    
     // 初始化游戏状态机
     m_pGameStateMachine = new GameStateMachine;
 
     // 设置初始状态为菜单状态
     m_pGameStateMachine->pushState(new MenuState());
 
-    std::cout << "所有设备初始化成功！\n";
     // 运行标志设置为真
     m_bRunning = true;
     return true;
