@@ -56,6 +56,22 @@ void TextureManager::drawFrame(const std::string &id, int x, int y, int width, i
     SDL_RenderCopyEx(pRenderer, m_textureMap[id], &srcRect, &destRect, 0, 0, filp);
 }
 
+void TextureManager::cleanFromTextureMap(const std::string &id)
+{
+    // 从图中查找这个纹理
+    std::map<std::string, SDL_Texture *>::iterator it = m_textureMap.find(id);
+    if (it != m_textureMap.end())
+    {
+        // 将纹理销毁
+        SDL_DestroyTexture(it->second);
+        // 从图中删除这个纹理记录
+        m_textureMap.erase(it);
+#if DEBUG
+        std::cout << "纹理 " << it->first << " 已经被正确释放.\n";
+#endif
+    }
+}
+
 void TextureManager::cleanAll()
 {
     if (!m_textureMap.empty())
@@ -63,10 +79,10 @@ void TextureManager::cleanAll()
         std::map<std::string, SDL_Texture *>::iterator it;
         for (it = m_textureMap.begin(); it != m_textureMap.end(); ++it)
         {
+            SDL_DestroyTexture(it->second);
 #if DEBUG
             std::cout << "纹理 " << it->first << " 已经被正确释放.\n";
 #endif
-            SDL_DestroyTexture(it->second);
         }
         m_textureMap.clear();
     }

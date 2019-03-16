@@ -6,26 +6,29 @@
 // 菜单按钮
 class MenuButton : public SDLGameObject
 {
-    // 菜单按钮枚举
-    enum button_state
-    {
-        // 鼠标离开
-        MOUSE_OUT = 0,
-        // 鼠标进入
-        MOUSE_OVER = 1,
-        // 点击
-        CLICKED = 2
-    };
+  // 菜单按钮枚举
+  enum button_state
+  {
+    // 鼠标离开
+    MOUSE_OUT = 0,
+    // 鼠标进入
+    MOUSE_OVER = 1,
+    // 点击
+    CLICKED = 2
+  };
 
-  public:
-    MenuButton(LoaderParams *pParams);
+public:
+  typedef void (*CallBack)();
 
-    void update() override;
-    void draw() override;
-    void clean() override;
+  MenuButton(LoaderParams *pParams, CallBack callback);
 
-  private:
-    /* data */
+  void update() override;
+  void draw() override;
+  void clean() override;
+
+private:
+  CallBack m_callback = nullptr;
+  bool m_bReleased = true;
 };
 
 #endif

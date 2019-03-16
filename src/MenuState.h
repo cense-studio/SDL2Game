@@ -7,13 +7,16 @@
 class MenuState : public GameState
 {
 public:
-public:
   void update() override;
   void render() override;
 
   bool onEnter() override;
   bool onExit() override;
   std::string getStateID() override { return s_menuID; }
+
+protected:
+  static void onPlayButtonCliked();
+  static void onExitButtonCliked();
 
 private:
   static const std::string s_menuID;
