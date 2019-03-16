@@ -1,4 +1,4 @@
-#ifndef __Config__
+﻿#ifndef __Config__
 #define __Config__
 
 #ifndef DEBUG

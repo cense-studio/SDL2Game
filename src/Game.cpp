@@ -79,7 +79,7 @@ bool Game::init(const std::string &title,
     // 初始化游戏手柄事件监听器
     IInputHandler->initialiseJoysticks();
     std::cout << "所有设备初始化成功！\n";
-    
+
     // 初始化游戏状态机
     m_pGameStateMachine = new GameStateMachine;
 
