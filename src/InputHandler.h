@@ -27,30 +27,28 @@ public:
   }
 
 public:
-  // 鼠标按钮枚举
-  enum mouse_buttons
-  {
-    LEFT = 0,
-    MIDDLE = 1,
-    RIGHT = 2
-  };
-
   void update();
   void clean();
 
   // 初始化游戏手柄操纵杆
   void initialiseJoysticks();
+
   // 获取游戏手柄操纵杆初始化状态
-  bool joysticksInitialised()
+  bool joysticksInitialised() const
   {
     return m_bJoysticksInitialised;
   }
+
   // 获得某个手柄的方向键左右方向状态 stick: 1 左方向键 2 右方向键
+  // 返回 -1 左移 1 右移
   int xvalue(int joy, int stick);
+
   // 获得某个手柄的方向键上下方向状态 stick: 1 左方向键 2 右方向键
+  // 返回 -1 下移 1 上移
   int yvalue(int joy, int stick);
+
   // 获得某个手柄的某个按钮状态
-  bool getJoyButtonState(int joy, int buttonID)
+  bool getJoyButtonState(int joy, int buttonID) const
   {
     return m_joyButtonStates[joy][buttonID];
   }
@@ -60,8 +58,9 @@ public:
   {
     return m_mousePosition;
   }
+
   // 获得鼠标按钮状态
-  bool getMouseButtonState(int buttonNumber)
+  bool getMouseButtonState(int buttonNumber) const
   {
     return m_mouseButtonStates[buttonNumber];
   }

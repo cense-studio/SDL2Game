@@ -5,7 +5,6 @@
 #include <string>
 #include "LoaderParams.h"
 
-
 #define UNUSED(x) (void)(x)
 
 class GameObject
@@ -16,7 +15,7 @@ public:
   virtual void clean() = 0;
 
 protected:
-  GameObject(const LoaderParams *pParams) {UNUSED(pParams);}
+  GameObject(const LoaderParams *pParams) { UNUSED(pParams); }
   virtual ~GameObject() {}
 };
 

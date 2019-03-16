@@ -6,7 +6,7 @@ InputHandler *InputHandler::s_pInstance = nullptr;
 InputHandler::InputHandler() : m_keysStates(SDL_GetKeyboardState(nullptr))
 {
     // 初始化鼠标按钮状态
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 6; i++)
     {
         m_mouseButtonStates.push_back(false);
     }
@@ -156,33 +156,11 @@ void InputHandler::onMouseMove(SDL_Event &event)
 }
 void InputHandler::onMouseButtonDown(SDL_Event &event)
 {
-    if (event.button.button == SDL_BUTTON_LEFT)
-    {
-        m_mouseButtonStates[LEFT] = true;
-    }
-    if (event.button.button == SDL_BUTTON_MIDDLE)
-    {
-        m_mouseButtonStates[MIDDLE] = true;
-    }
-    if (event.button.button == SDL_BUTTON_RIGHT)
-    {
-        m_mouseButtonStates[RIGHT] = true;
-    }
+    m_mouseButtonStates[event.button.button] = true;
 }
 void InputHandler::onMouseButtonUp(SDL_Event &event)
 {
-    if (event.button.button == SDL_BUTTON_LEFT)
-    {
-        m_mouseButtonStates[LEFT] = false;
-    }
-    if (event.button.button == SDL_BUTTON_MIDDLE)
-    {
-        m_mouseButtonStates[MIDDLE] = false;
-    }
-    if (event.button.button == SDL_BUTTON_RIGHT)
-    {
-        m_mouseButtonStates[RIGHT] = false;
-    }
+    m_mouseButtonStates[event.button.button] = false;
 }
 
 void InputHandler::onJoystickAxisMove(SDL_Event &event)

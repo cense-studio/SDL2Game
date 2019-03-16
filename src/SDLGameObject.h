@@ -6,29 +6,30 @@
 
 class SDLGameObject : public GameObject
 {
-public:
-  SDLGameObject(const LoaderParams *pParams);
+  public:
+	SDLGameObject(const LoaderParams *pParams);
 
-  virtual void draw() override;
-  virtual void update() override;
-  virtual void clean() override {
-    delete this;
-  }
-  
-protected:
-  // 位置向量
-  Vector2D m_position;
-  // 速度向量
-  Vector2D m_velocity;
-  // 加速度向量
-  Vector2D m_acceleration;
+	void draw() override;
+	void update() override;
+	void clean() override
+	{
+		delete this;
+	}
 
-  int m_width = 0;
-  int m_height = 0;
+  protected:
+	// 位置向量
+	Vector2D m_position;
+	// 速度向量
+	Vector2D m_velocity;
+	// 加速度向量
+	Vector2D m_acceleration;
 
-  int m_currentRow = 1;
-  int m_currentFrame = 0;
+	int m_width = 0;
+	int m_height = 0;
 
-  std::string m_textureID;
+	int m_currentRow = 1;
+	int m_currentFrame = 0;
+
+	std::string m_textureID;
 };
 #endif // !__SDL_Game_Object__

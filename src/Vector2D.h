@@ -8,9 +8,9 @@ class Vector2D
   public:
     Vector2D(float x = 0.0f, float y = 0.0f) : m_x(x), m_y(y) {}
     // 获得X值
-    float getX() { return m_x; }
+    float getX() const { return m_x; }
     // 获得Y值
-    float getY() { return m_y; }
+    float getY() const { return m_y; }
 
     // 设置X值
     void setX(float x) { m_x = x; }
@@ -18,13 +18,13 @@ class Vector2D
     void setY(float y) { m_y = y; }
 
     // 获取向量长度
-    float length() { return sqrt(m_x * m_x + m_y * m_y); }
+    float length() const { return sqrt(m_x * m_x + m_y * m_y); }
 
     // 向量归一化，当归一化后表示一个方向
     void normalize()
     {
         float l = length();
-        if (l > 0)  // 防止除法出错
+        if (l > 0) // 防止除法出错
         {
             (*this) *= 1 / l;
         }

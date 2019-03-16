@@ -5,15 +5,15 @@
 class PlayState : public GameState
 {
   public:
-    virtual void update();
-    virtual void render();
+    void update() override;
+    void render() override;
 
-    virtual bool onEnter();
-    virtual bool onExit();
-    virtual std::string getStateID() { return s_menuID; }
+    bool onEnter() override;
+    bool onExit() override;
+    std::string getStateID() override { return s_playID; }
 
   private:
-    static const std::string s_menuID;
+    static const std::string s_playID;
 };
 
 #endif // !__Play_State__

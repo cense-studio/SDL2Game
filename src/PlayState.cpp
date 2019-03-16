@@ -2,7 +2,7 @@
 #include "Game.h"
 #include "InputHandler.h"
 #include <iostream>
-const std::string PlayState::s_menuID = "PLAY";
+const std::string PlayState::s_playID = "PLAY";
 
 void PlayState::update()
 {

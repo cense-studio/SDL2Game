@@ -4,11 +4,11 @@
 
 class Player : public SDLGameObject
 {
-public:
-  Player(const LoaderParams *pParams);
-  virtual void draw();
-  virtual void update();
-  virtual void clean();
+  public:
+    Player(const LoaderParams *pParams);
+    void draw() override;
+    void update() override;
+    void clean() override;
 };
 
 #endif // !__Player__

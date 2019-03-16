@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/GameStateMachine.cpp.o"
   "/home/zyh/文档/git/SDL2Game/src/InputHandler.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/InputHandler.cpp.o"
   "/home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/LoaderParams.cpp.o"
+  "/home/zyh/文档/git/SDL2Game/src/MenuButton.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/MenuButton.cpp.o"
   "/home/zyh/文档/git/SDL2Game/src/MenuState.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/MenuState.cpp.o"
   "/home/zyh/文档/git/SDL2Game/src/PlayState.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/PlayState.cpp.o"
   "/home/zyh/文档/git/SDL2Game/src/Player.cpp" "/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir/src/Player.cpp.o"

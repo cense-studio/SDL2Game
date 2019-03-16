@@ -258,6 +258,33 @@ src/LoaderParams.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/LoaderParams.cpp.s
 .PHONY : src/LoaderParams.cpp.s
 
+src/MenuButton.o: src/MenuButton.cpp.o
+
+.PHONY : src/MenuButton.o
+
+# target to build an object file
+src/MenuButton.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuButton.cpp.o
+.PHONY : src/MenuButton.cpp.o
+
+src/MenuButton.i: src/MenuButton.cpp.i
+
+.PHONY : src/MenuButton.i
+
+# target to preprocess a source file
+src/MenuButton.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuButton.cpp.i
+.PHONY : src/MenuButton.cpp.i
+
+src/MenuButton.s: src/MenuButton.cpp.s
+
+.PHONY : src/MenuButton.s
+
+# target to generate assembly for a file
+src/MenuButton.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuButton.cpp.s
+.PHONY : src/MenuButton.cpp.s
+
 src/MenuState.o: src/MenuState.cpp.o
 
 .PHONY : src/MenuState.o
@@ -444,6 +471,9 @@ help:
 	@echo "... src/LoaderParams.o"
 	@echo "... src/LoaderParams.i"
 	@echo "... src/LoaderParams.s"
+	@echo "... src/MenuButton.o"
+	@echo "... src/MenuButton.i"
+	@echo "... src/MenuButton.s"
 	@echo "... src/MenuState.o"
 	@echo "... src/MenuState.i"
 	@echo "... src/MenuState.s"

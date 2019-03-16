@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/src/GameStateMachine.cpp.o"
   "CMakeFiles/Game.dir/src/InputHandler.cpp.o"
   "CMakeFiles/Game.dir/src/LoaderParams.cpp.o"
+  "CMakeFiles/Game.dir/src/MenuButton.cpp.o"
   "CMakeFiles/Game.dir/src/MenuState.cpp.o"
   "CMakeFiles/Game.dir/src/PlayState.cpp.o"
   "CMakeFiles/Game.dir/src/Player.cpp.o"
