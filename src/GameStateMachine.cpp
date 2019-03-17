@@ -25,12 +25,9 @@ void GameStateMachine::changeState(GameState *pState)
         {
             return;
         }
-        // 退出当前游戏状态
-        if (m_gameStates.back()->onExit())
+        while (!m_gameStates.empty())
         {
-            std::cout << "退出" << m_gameStates.back()->getStateID() << "状态\n";
-            delete m_gameStates.back();
-            m_gameStates.pop_back();
+            popState();
         }
     }
     // 添加新状态
@@ -47,7 +44,10 @@ void GameStateMachine::popState()
             delete m_gameStates.back();
             m_gameStates.pop_back();
         }
-        std::cout << "恢复了" << m_gameStates.back()->getStateID() << "状态\n ";
+        if (!m_gameStates.empty())
+        {
+            std::cout << "恢复了" << m_gameStates.back()->getStateID() << "状态\n ";
+        }
     }
 }
 

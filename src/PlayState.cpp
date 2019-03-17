@@ -3,6 +3,7 @@
 #include "InputHandler.h"
 #include "TextureManager.h"
 #include "Player.h"
+#include "Enemy.h"
 #include "PauseState.h"
 #include <iostream>
 const std::string PlayState::s_playID = "PLAY";
@@ -37,7 +38,12 @@ bool PlayState::onEnter()
     {
         return false;
     }
+    if (!ITextureManager->load("assets/helicopter2.png", "helicopter2", IGame->getRenderer()))
+    {
+        return false;
+    }
     m_gameObjects.push_back(new Player(new LoaderParams(100, 100, 128, 55, "helicopter")));
+    m_gameObjects.push_back(new Enemy(new LoaderParams(400, 100, 128, 55, "helicopter2")));
     m_bExited = false;
     return true;
 }
@@ -53,6 +59,7 @@ bool PlayState::onExit()
     m_gameObjects.clear();
     // 销毁当前状态创建的纹理
     ITextureManager->cleanFromTextureMap("helicopter");
+    ITextureManager->cleanFromTextureMap("helicopter2");
     m_bExited = true;
     return true;
 }

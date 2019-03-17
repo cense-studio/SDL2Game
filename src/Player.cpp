@@ -5,7 +5,7 @@
 Player::Player(const LoaderParams *pParams)
     : SDLGameObject(pParams)
 {
-    m_velocity.setX(1);
+    m_velocity.setX(0.05f);
 }
 
 void Player::draw()
@@ -20,11 +20,21 @@ void Player::update()
 
     if (IInputHandler->isKeyDown(SDL_SCANCODE_LEFT))
     {
-        m_velocity.setX(-1.0f);
+        m_position.setX(m_position.getX() - 2.0f);
+        m_velocity.setX(-0.1f);
     }
     if (IInputHandler->isKeyDown(SDL_SCANCODE_RIGHT))
     {
-        m_velocity.setX(1.0f);
+        m_position.setX(m_position.getX() + 2.0f);
+        m_velocity.setX(0.1f);
+    }
+    if (IInputHandler->isKeyDown(SDL_SCANCODE_UP))
+    {
+        m_position.setY(m_position.getY() - 2.0f);
+    }
+    if (IInputHandler->isKeyDown(SDL_SCANCODE_DOWN))
+    {
+        m_position.setY(m_position.getY() + 2.0f);
     }
     if (m_position.getX() > 800)
     {

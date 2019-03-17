@@ -4,6 +4,8 @@
 Enemy::Enemy(const LoaderParams *pParams)
     : SDLGameObject(pParams)
 {
+    m_velocity.setY(2);
+    m_velocity.setX(-0.001);
 }
 
 void Enemy::draw()
@@ -13,15 +15,16 @@ void Enemy::draw()
 
 void Enemy::update()
 {
-    m_currentFrame = int(((SDL_GetTicks() / 100) % 6));
-    m_position.setX(m_position.getX() + 3);
-    if(m_position.getX() > 800)
+    m_currentFrame = int(((SDL_GetTicks() / 60) % 5));
+    if (m_position.getY() < 0)
     {
-        m_position.setX(0);
+        m_velocity.setY(2);
     }
-    if(IInputHandler->getMouseButtonState(0)){
-        m_position = IInputHandler->getMousePosition();
+    else if (m_position.getY() > 600 - 55)
+    {
+        m_velocity.setY(-2);
     }
+    SDLGameObject::update();
 }
 
 void Enemy::clean()

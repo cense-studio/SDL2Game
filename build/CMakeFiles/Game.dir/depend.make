@@ -453,6 +453,7 @@ CMakeFiles/Game.dir/src/PlayState.cpp.o: .././include/SDL2/SDL_video.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: .././include/SDL2/begin_code.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: .././include/SDL2/close_code.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/Config.h
+CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/Enemy.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/Game.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/GameObject.h
 CMakeFiles/Game.dir/src/PlayState.cpp.o: ../src/GameState.h

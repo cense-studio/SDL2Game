@@ -454,6 +454,7 @@ CMakeFiles/Game.dir/src/PlayState.cpp.o
  .././include/SDL2/begin_code.h
  .././include/SDL2/close_code.h
  /home/zyh/文档/git/SDL2Game/src/Config.h
+ /home/zyh/文档/git/SDL2Game/src/Enemy.h
  /home/zyh/文档/git/SDL2Game/src/Game.h
  /home/zyh/文档/git/SDL2Game/src/GameObject.h
  /home/zyh/文档/git/SDL2Game/src/GameState.h
