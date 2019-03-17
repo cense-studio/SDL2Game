@@ -17,7 +17,7 @@ void GameStateMachine::pushState(GameState *pState)
 
 void GameStateMachine::changeState(GameState *pState)
 {
-    // 退出当前
+    // 退出当前已存在状态
     if (!m_gameStates.empty())
     {
         // 如果当前状态等于要改变的状态就什么也不做
@@ -25,6 +25,7 @@ void GameStateMachine::changeState(GameState *pState)
         {
             return;
         }
+        // 改变状态时要将所以状态清空
         while (!m_gameStates.empty())
         {
             popState();

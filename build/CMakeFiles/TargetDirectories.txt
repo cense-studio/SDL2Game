@@ -1,3 +1,3 @@
-/home/zyh/文档/git/SDL2Game/build/CMakeFiles/rebuild_cache.dir
-/home/zyh/文档/git/SDL2Game/build/CMakeFiles/Game.dir
-/home/zyh/文档/git/SDL2Game/build/CMakeFiles/edit_cache.dir
+E:/git/SDL2Game/build/CMakeFiles/Game.dir
+E:/git/SDL2Game/build/CMakeFiles/edit_cache.dir
+E:/git/SDL2Game/build/CMakeFiles/rebuild_cache.dir

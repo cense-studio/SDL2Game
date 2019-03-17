@@ -1,67 +1,91 @@
 [
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/Enemy.cpp.o -c /home/zyh/文档/git/SDL2Game/src/Enemy.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/Enemy.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\AnimatedGraphic.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\AnimatedGraphic.cpp",
+  "file": "E:/git/SDL2Game/src/AnimatedGraphic.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/Game.cpp.o -c /home/zyh/文档/git/SDL2Game/src/Game.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/Game.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\Enemy.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\Enemy.cpp",
+  "file": "E:/git/SDL2Game/src/Enemy.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/GameStateMachine.cpp.o -c /home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/GameStateMachine.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\Game.cpp",
+  "file": "E:/git/SDL2Game/src/Game.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/InputHandler.cpp.o -c /home/zyh/文档/git/SDL2Game/src/InputHandler.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/InputHandler.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\GameOverState.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\GameOverState.cpp",
+  "file": "E:/git/SDL2Game/src/GameOverState.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/LoaderParams.cpp.o -c /home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/LoaderParams.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\GameStateMachine.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\GameStateMachine.cpp",
+  "file": "E:/git/SDL2Game/src/GameStateMachine.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/MenuButton.cpp.o -c /home/zyh/文档/git/SDL2Game/src/MenuButton.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/MenuButton.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\InputHandler.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\InputHandler.cpp",
+  "file": "E:/git/SDL2Game/src/InputHandler.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/MenuState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/MenuState.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/MenuState.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\LoaderParams.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\LoaderParams.cpp",
+  "file": "E:/git/SDL2Game/src/LoaderParams.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/PauseState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PauseState.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/PauseState.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\MenuButton.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\MenuButton.cpp",
+  "file": "E:/git/SDL2Game/src/MenuButton.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/PlayState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PlayState.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/PlayState.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\MenuState.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\MenuState.cpp",
+  "file": "E:/git/SDL2Game/src/MenuState.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/Player.cpp.o -c /home/zyh/文档/git/SDL2Game/src/Player.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/Player.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\PauseState.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\PauseState.cpp",
+  "file": "E:/git/SDL2Game/src/PauseState.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/SDLGameObject.cpp.o -c /home/zyh/文档/git/SDL2Game/src/SDLGameObject.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/SDLGameObject.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\PlayState.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\PlayState.cpp",
+  "file": "E:/git/SDL2Game/src/PlayState.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/TextureManager.cpp.o -c /home/zyh/文档/git/SDL2Game/src/TextureManager.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/TextureManager.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\Player.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\Player.cpp",
+  "file": "E:/git/SDL2Game/src/Player.cpp"
 },
+
 {
-  "directory": "/home/zyh/文档/git/SDL2Game/build",
-  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/main.cpp.o -c /home/zyh/文档/git/SDL2Game/src/main.cpp",
-  "file": "/home/zyh/文档/git/SDL2Game/src/main.cpp"
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\SDLGameObject.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\SDLGameObject.cpp",
+  "file": "E:/git/SDL2Game/src/SDLGameObject.cpp"
+},
+
+{
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\TextureManager.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\TextureManager.cpp",
+  "file": "E:/git/SDL2Game/src/TextureManager.cpp"
+},
+
+{
+  "directory": "e:/git/SDL2Game/build",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\.\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Game.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\git\\SDL2Game\\src\\main.cpp",
+  "file": "E:/git/SDL2Game/src/main.cpp"
 }
 ]
