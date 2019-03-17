@@ -16,15 +16,15 @@ void Player::draw()
 void Player::update()
 {
     // 动画速度为每秒10帧
-    m_currentFrame = int(((SDL_GetTicks() / 100) % 6));
+    m_currentFrame = int(((SDL_GetTicks() / 60) % 5));
 
     if (IInputHandler->isKeyDown(SDL_SCANCODE_LEFT))
     {
-        m_acceleration.setX(-0.05f);
+        m_velocity.setX(-1.0f);
     }
     if (IInputHandler->isKeyDown(SDL_SCANCODE_RIGHT))
     {
-        m_acceleration.setX(0.05f);
+        m_velocity.setX(1.0f);
     }
     if (m_position.getX() > 800)
     {
@@ -41,4 +41,10 @@ void Player::update()
 
 void Player::clean()
 {
+}
+
+void Player::handleInput()
+{
+    m_velocity = IInputHandler->getMousePosition() - m_position;
+    m_velocity /= 50;
 }

@@ -6,7 +6,7 @@
 
 class SDLGameObject : public GameObject
 {
-  public:
+public:
 	SDLGameObject(const LoaderParams *pParams);
 
 	void draw() override;
@@ -19,12 +19,12 @@ class SDLGameObject : public GameObject
 	int getWidth() { return m_width; }
 	int getHeight() { return m_height; }
 
-  protected:
+protected:
 	// 位置向量
 	Vector2D m_position;
-	// 速度向量
+	// 移动速度向量
 	Vector2D m_velocity;
-	// 加速度向量
+	// 移动加速度向量
 	Vector2D m_acceleration;
 
 	int m_width = 0;

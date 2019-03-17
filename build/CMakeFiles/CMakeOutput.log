@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/zyh/文档/git/SDL2Game/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_85884/fast"
-/usr/bin/make -f CMakeFiles/cmTC_85884.dir/build.make CMakeFiles/cmTC_85884.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f047c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f047c.dir/build.make CMakeFiles/cmTC_f047c.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_85884.dir/testCCompiler.c.o
-/usr/bin/gcc-8    -o CMakeFiles/cmTC_85884.dir/testCCompiler.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_85884
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85884.dir/link.txt --verbose=1
-/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_85884.dir/testCCompiler.c.o  -o cmTC_85884 
+Building C object CMakeFiles/cmTC_f047c.dir/testCCompiler.c.o
+/usr/bin/gcc-8    -o CMakeFiles/cmTC_f047c.dir/testCCompiler.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f047c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f047c.dir/link.txt --verbose=1
+/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_f047c.dir/testCCompiler.c.o  -o cmTC_f047c 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5205/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5205.dir/build.make CMakeFiles/cmTC_a5205.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_98a3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98a3f.dir/build.make CMakeFiles/cmTC_98a3f.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc-8    -o CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a5205
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5205.dir/link.txt --verbose=1
-/usr/bin/gcc-8     -v -rdynamic CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o  -o cmTC_a5205 
+Building C object CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-8    -o CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_98a3f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a3f.dir/link.txt --verbose=1
+/usr/bin/gcc-8     -v -rdynamic CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o  -o cmTC_98a3f 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc-8
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a5205' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDaeRP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5205 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a5205' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98a3f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccztRvZL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98a3f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98a3f' '-mtune=generic' '-march=x86-64'
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a5205/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a5205.dir/build.make CMakeFiles/cmTC_a5205.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98a3f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98a3f.dir/build.make CMakeFiles/cmTC_98a3f.dir/build]
   ignore line: [make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc-8    -o CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a5205]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5205.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc-8     -v -rdynamic CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o  -o cmTC_a5205 ]
+  ignore line: [Building C object CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc-8    -o CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_98a3f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a3f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc-8     -v -rdynamic CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o  -o cmTC_98a3f ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc-8]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a5205' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDaeRP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5205 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98a3f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccztRvZL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98a3f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccDaeRP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccztRvZL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a5205] ==> ignore
+    arg [cmTC_98a3f] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_a5205.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_98a3f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -160,14 +160,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1dd4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1dd4c.dir/build.make CMakeFiles/cmTC_1dd4c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d5466/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5466.dir/build.make CMakeFiles/cmTC_d5466.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_1dd4c.dir/feature_tests.c.o
-/usr/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_1dd4c.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1dd4c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dd4c.dir/link.txt --verbose=1
-/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_1dd4c.dir/feature_tests.c.o  -o cmTC_1dd4c 
+Building C object CMakeFiles/cmTC_d5466.dir/feature_tests.c.o
+/usr/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_d5466.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d5466
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5466.dir/link.txt --verbose=1
+/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_d5466.dir/feature_tests.c.o  -o cmTC_d5466 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -180,14 +180,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fd486/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fd486.dir/build.make CMakeFiles/cmTC_fd486.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c3af1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3af1.dir/build.make CMakeFiles/cmTC_c3af1.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_fd486.dir/feature_tests.c.o
-/usr/bin/gcc-8   -std=c99 -o CMakeFiles/cmTC_fd486.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fd486
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd486.dir/link.txt --verbose=1
-/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_fd486.dir/feature_tests.c.o  -o cmTC_fd486 
+Building C object CMakeFiles/cmTC_c3af1.dir/feature_tests.c.o
+/usr/bin/gcc-8   -std=c99 -o CMakeFiles/cmTC_c3af1.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c3af1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3af1.dir/link.txt --verbose=1
+/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_c3af1.dir/feature_tests.c.o  -o cmTC_c3af1 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -200,14 +200,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7931e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7931e.dir/build.make CMakeFiles/cmTC_7931e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bc62f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc62f.dir/build.make CMakeFiles/cmTC_bc62f.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_7931e.dir/feature_tests.c.o
-/usr/bin/gcc-8   -std=c90 -o CMakeFiles/cmTC_7931e.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7931e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7931e.dir/link.txt --verbose=1
-/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_7931e.dir/feature_tests.c.o  -o cmTC_7931e 
+Building C object CMakeFiles/cmTC_bc62f.dir/feature_tests.c.o
+/usr/bin/gcc-8   -std=c90 -o CMakeFiles/cmTC_bc62f.dir/feature_tests.c.o   -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bc62f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc62f.dir/link.txt --verbose=1
+/usr/bin/gcc-8      -rdynamic CMakeFiles/cmTC_bc62f.dir/feature_tests.c.o  -o cmTC_bc62f 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -218,28 +218,28 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a4b5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a4b5.dir/build.make CMakeFiles/cmTC_0a4b5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_15b65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15b65.dir/build.make CMakeFiles/cmTC_15b65.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_0a4b5.dir/testCXXCompiler.cxx.o
-/usr/bin/g++-8     -o CMakeFiles/cmTC_0a4b5.dir/testCXXCompiler.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0a4b5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a4b5.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_0a4b5.dir/testCXXCompiler.cxx.o  -o cmTC_0a4b5 
+Building CXX object CMakeFiles/cmTC_15b65.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-8     -o CMakeFiles/cmTC_15b65.dir/testCXXCompiler.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_15b65
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15b65.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_15b65.dir/testCXXCompiler.cxx.o  -o cmTC_15b65 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2602f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2602f.dir/build.make CMakeFiles/cmTC_2602f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5d7fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d7fe.dir/build.make CMakeFiles/cmTC_5d7fe.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++-8     -o CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2602f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2602f.dir/link.txt --verbose=1
-/usr/bin/g++-8      -v -rdynamic CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2602f 
+Building CXX object CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-8     -o CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5d7fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7fe.dir/link.txt --verbose=1
+/usr/bin/g++-8      -v -rdynamic CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d7fe 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++-8
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -251,9 +251,9 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2602f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQvilnm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2602f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2602f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d7fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0XwPdh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d7fe /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d7fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -261,14 +261,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2602f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2602f.dir/build.make CMakeFiles/cmTC_2602f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5d7fe/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d7fe.dir/build.make CMakeFiles/cmTC_5d7fe.dir/build]
   ignore line: [make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++-8     -o CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2602f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2602f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++-8      -v -rdynamic CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2602f ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-8     -o CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5d7fe]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7fe.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-8      -v -rdynamic CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d7fe ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++-8]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -280,13 +280,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2602f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQvilnm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2602f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d7fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0XwPdh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d7fe /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQvilnm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0XwPdh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2602f] ==> ignore
+    arg [cmTC_5d7fe] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_2602f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5d7fe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -346,14 +346,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62e37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_62e37.dir/build.make CMakeFiles/cmTC_62e37.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1bf3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bf3a.dir/build.make CMakeFiles/cmTC_1bf3a.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_62e37.dir/feature_tests.cxx.o
-/usr/bin/g++-8    -std=c++2a -o CMakeFiles/cmTC_62e37.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_62e37
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62e37.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_62e37.dir/feature_tests.cxx.o  -o cmTC_62e37 
+Building CXX object CMakeFiles/cmTC_1bf3a.dir/feature_tests.cxx.o
+/usr/bin/g++-8    -std=c++2a -o CMakeFiles/cmTC_1bf3a.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1bf3a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf3a.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_1bf3a.dir/feature_tests.cxx.o  -o cmTC_1bf3a 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -419,14 +419,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2bf01/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2bf01.dir/build.make CMakeFiles/cmTC_2bf01.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ee847/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee847.dir/build.make CMakeFiles/cmTC_ee847.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_2bf01.dir/feature_tests.cxx.o
-/usr/bin/g++-8    -std=c++17 -o CMakeFiles/cmTC_2bf01.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2bf01
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf01.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_2bf01.dir/feature_tests.cxx.o  -o cmTC_2bf01 
+Building CXX object CMakeFiles/cmTC_ee847.dir/feature_tests.cxx.o
+/usr/bin/g++-8    -std=c++17 -o CMakeFiles/cmTC_ee847.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ee847
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee847.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_ee847.dir/feature_tests.cxx.o  -o cmTC_ee847 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -492,14 +492,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9eaf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9eaf.dir/build.make CMakeFiles/cmTC_a9eaf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_53e3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53e3d.dir/build.make CMakeFiles/cmTC_53e3d.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_a9eaf.dir/feature_tests.cxx.o
-/usr/bin/g++-8    -std=c++14 -o CMakeFiles/cmTC_a9eaf.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a9eaf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9eaf.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_a9eaf.dir/feature_tests.cxx.o  -o cmTC_a9eaf 
+Building CXX object CMakeFiles/cmTC_53e3d.dir/feature_tests.cxx.o
+/usr/bin/g++-8    -std=c++14 -o CMakeFiles/cmTC_53e3d.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_53e3d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e3d.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_53e3d.dir/feature_tests.cxx.o  -o cmTC_53e3d 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -565,14 +565,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad84b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad84b.dir/build.make CMakeFiles/cmTC_ad84b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92041/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92041.dir/build.make CMakeFiles/cmTC_92041.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_ad84b.dir/feature_tests.cxx.o
-/usr/bin/g++-8    -std=c++11 -o CMakeFiles/cmTC_ad84b.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ad84b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad84b.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_ad84b.dir/feature_tests.cxx.o  -o cmTC_ad84b 
+Building CXX object CMakeFiles/cmTC_92041.dir/feature_tests.cxx.o
+/usr/bin/g++-8    -std=c++11 -o CMakeFiles/cmTC_92041.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92041
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92041.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_92041.dir/feature_tests.cxx.o  -o cmTC_92041 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -638,14 +638,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2caa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2caa.dir/build.make CMakeFiles/cmTC_a2caa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6ef9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ef9a.dir/build.make CMakeFiles/cmTC_6ef9a.dir/build
 make[1]: 进入目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_a2caa.dir/feature_tests.cxx.o
-/usr/bin/g++-8    -std=c++98 -o CMakeFiles/cmTC_a2caa.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a2caa
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2caa.dir/link.txt --verbose=1
-/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_a2caa.dir/feature_tests.cxx.o  -o cmTC_a2caa 
+Building CXX object CMakeFiles/cmTC_6ef9a.dir/feature_tests.cxx.o
+/usr/bin/g++-8    -std=c++98 -o CMakeFiles/cmTC_6ef9a.dir/feature_tests.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ef9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef9a.dir/link.txt --verbose=1
+/usr/bin/g++-8       -rdynamic CMakeFiles/cmTC_6ef9a.dir/feature_tests.cxx.o  -o cmTC_6ef9a 
 make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp”
 
 
@@ -709,14 +709,14 @@ make[1]: 离开目录“/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp�
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b2a84/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b2a84.dir/build.make CMakeFiles/cmTC_b2a84.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e06eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e06eb.dir/build.make CMakeFiles/cmTC_e06eb.dir/build
 make[1]: Entering directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b2a84.dir/src.cxx.o
-/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX17   -std=c++17 -o CMakeFiles/cmTC_b2a84.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b2a84
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a84.dir/link.txt --verbose=1
-/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX17    -rdynamic CMakeFiles/cmTC_b2a84.dir/src.cxx.o  -o cmTC_b2a84 
+Building CXX object CMakeFiles/cmTC_e06eb.dir/src.cxx.o
+/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX17   -std=c++17 -o CMakeFiles/cmTC_e06eb.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e06eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06eb.dir/link.txt --verbose=1
+/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX17    -rdynamic CMakeFiles/cmTC_e06eb.dir/src.cxx.o  -o cmTC_e06eb 
 make[1]: Leaving directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -724,14 +724,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX1Z succeeded with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_706a8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_706a8.dir/build.make CMakeFiles/cmTC_706a8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2c07f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c07f.dir/build.make CMakeFiles/cmTC_2c07f.dir/build
 make[1]: Entering directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_706a8.dir/src.cxx.o
-/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX1Z   -std=c++1z -o CMakeFiles/cmTC_706a8.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_706a8
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_706a8.dir/link.txt --verbose=1
-/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX1Z    -rdynamic CMakeFiles/cmTC_706a8.dir/src.cxx.o  -o cmTC_706a8 
+Building CXX object CMakeFiles/cmTC_2c07f.dir/src.cxx.o
+/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX1Z   -std=c++1z -o CMakeFiles/cmTC_2c07f.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c07f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c07f.dir/link.txt --verbose=1
+/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX1Z    -rdynamic CMakeFiles/cmTC_2c07f.dir/src.cxx.o  -o cmTC_2c07f 
 make[1]: Leaving directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -739,14 +739,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX14 succeeded with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_caa5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_caa5f.dir/build.make CMakeFiles/cmTC_caa5f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_53b75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53b75.dir/build.make CMakeFiles/cmTC_53b75.dir/build
 make[1]: Entering directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_caa5f.dir/src.cxx.o
-/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX14   -std=c++14 -o CMakeFiles/cmTC_caa5f.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_caa5f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caa5f.dir/link.txt --verbose=1
-/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX14    -rdynamic CMakeFiles/cmTC_caa5f.dir/src.cxx.o  -o cmTC_caa5f 
+Building CXX object CMakeFiles/cmTC_53b75.dir/src.cxx.o
+/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX14   -std=c++14 -o CMakeFiles/cmTC_53b75.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53b75
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b75.dir/link.txt --verbose=1
+/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX14    -rdynamic CMakeFiles/cmTC_53b75.dir/src.cxx.o  -o cmTC_53b75 
 make[1]: Leaving directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -754,14 +754,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX1Y succeeded with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63ccf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63ccf.dir/build.make CMakeFiles/cmTC_63ccf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0ddd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0ddd.dir/build.make CMakeFiles/cmTC_e0ddd.dir/build
 make[1]: Entering directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_63ccf.dir/src.cxx.o
-/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX1Y   -std=c++1y -o CMakeFiles/cmTC_63ccf.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_63ccf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63ccf.dir/link.txt --verbose=1
-/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX1Y    -rdynamic CMakeFiles/cmTC_63ccf.dir/src.cxx.o  -o cmTC_63ccf 
+Building CXX object CMakeFiles/cmTC_e0ddd.dir/src.cxx.o
+/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX1Y   -std=c++1y -o CMakeFiles/cmTC_e0ddd.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0ddd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ddd.dir/link.txt --verbose=1
+/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX1Y    -rdynamic CMakeFiles/cmTC_e0ddd.dir/src.cxx.o  -o cmTC_e0ddd 
 make[1]: Leaving directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -769,14 +769,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
 Change Dir: /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ce0a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ce0a3.dir/build.make CMakeFiles/cmTC_ce0a3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_118a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_118a9.dir/build.make CMakeFiles/cmTC_118a9.dir/build
 make[1]: Entering directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ce0a3.dir/src.cxx.o
-/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_ce0a3.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ce0a3
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce0a3.dir/link.txt --verbose=1
-/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_ce0a3.dir/src.cxx.o  -o cmTC_ce0a3 
+Building CXX object CMakeFiles/cmTC_118a9.dir/src.cxx.o
+/usr/bin/g++-8    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_118a9.dir/src.cxx.o -c /home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_118a9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_118a9.dir/link.txt --verbose=1
+/usr/bin/g++-8   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_118a9.dir/src.cxx.o  -o cmTC_118a9 
 make[1]: Leaving directory '/home/zyh/文档/git/SDL2Game/build/CMakeFiles/CMakeTmp'
 
 Source file was:

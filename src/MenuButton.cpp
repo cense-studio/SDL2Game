@@ -30,12 +30,12 @@ void MenuButton::update()
         }
         else if (!IInputHandler->getMouseButtonState(SDL_BUTTON_LEFT)) // 如果鼠标进入按钮且，左键没有按下
         {
-			if (!m_bReleased)
-			{
-				m_callback();
-				m_bReleased = true;
-			}
             m_currentFrame = MOUSE_OVER;
+            if (!m_bReleased)
+            {
+                m_bReleased = true;
+                m_callback();
+            }
         }
     }
     else // 鼠标不在按钮范围

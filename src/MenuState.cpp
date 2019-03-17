@@ -39,10 +39,8 @@ bool MenuState::onEnter()
     }
 
     m_gameObjects.push_back(new MenuButton(new LoaderParams(200, 100, 400, 100, "play_button"), onPlayButtonCliked));
-
     m_gameObjects.push_back(new MenuButton(new LoaderParams(200, 300, 400, 100, "exit_button"), onExitButtonCliked));
-
-    std::cout << "进入菜单状态\n";
+    m_bExited = false;
     return true;
 }
 
@@ -56,9 +54,9 @@ bool MenuState::onExit()
     // 清空对象数组
     m_gameObjects.clear();
     // 销毁当前状态创建的纹理
-    ITextureManager->cleanAll();
+    ITextureManager->cleanFromTextureMap("play_button");
+    ITextureManager->cleanFromTextureMap("exit_button");
     m_bExited = true;
-    std::cout << "退出菜单状态\n";
     return true;
 }
 

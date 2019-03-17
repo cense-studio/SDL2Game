@@ -312,6 +312,33 @@ src/MenuState.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/MenuState.cpp.s
 .PHONY : src/MenuState.cpp.s
 
+src/PauseState.o: src/PauseState.cpp.o
+
+.PHONY : src/PauseState.o
+
+# target to build an object file
+src/PauseState.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PauseState.cpp.o
+.PHONY : src/PauseState.cpp.o
+
+src/PauseState.i: src/PauseState.cpp.i
+
+.PHONY : src/PauseState.i
+
+# target to preprocess a source file
+src/PauseState.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PauseState.cpp.i
+.PHONY : src/PauseState.cpp.i
+
+src/PauseState.s: src/PauseState.cpp.s
+
+.PHONY : src/PauseState.s
+
+# target to generate assembly for a file
+src/PauseState.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/PauseState.cpp.s
+.PHONY : src/PauseState.cpp.s
+
 src/PlayState.o: src/PlayState.cpp.o
 
 .PHONY : src/PlayState.o
@@ -477,6 +504,9 @@ help:
 	@echo "... src/MenuState.o"
 	@echo "... src/MenuState.i"
 	@echo "... src/MenuState.s"
+	@echo "... src/PauseState.o"
+	@echo "... src/PauseState.i"
+	@echo "... src/PauseState.s"
 	@echo "... src/PlayState.o"
 	@echo "... src/PlayState.i"
 	@echo "... src/PlayState.s"

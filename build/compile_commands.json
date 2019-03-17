@@ -36,6 +36,11 @@
 },
 {
   "directory": "/home/zyh/文档/git/SDL2Game/build",
+  "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/PauseState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PauseState.cpp",
+  "file": "/home/zyh/文档/git/SDL2Game/src/PauseState.cpp"
+},
+{
+  "directory": "/home/zyh/文档/git/SDL2Game/build",
   "command": "/usr/bin/g++-8   -I/home/zyh/文档/git/SDL2Game/./include   -std=c++17 -Wall -Wextra -pedantic -g   -o CMakeFiles/Game.dir/src/PlayState.cpp.o -c /home/zyh/文档/git/SDL2Game/src/PlayState.cpp",
   "file": "/home/zyh/文档/git/SDL2Game/src/PlayState.cpp"
 },

@@ -3,7 +3,7 @@
 #include "Game.h"
 
 SDLGameObject::SDLGameObject(const LoaderParams *pParams)
-    : GameObject(pParams),m_position((float)pParams->getX(), (float)pParams->getY())
+    : GameObject(pParams), m_position((float)pParams->getX(), (float)pParams->getY())
 {
     if (pParams)
     {
@@ -17,7 +17,8 @@ SDLGameObject::SDLGameObject(const LoaderParams *pParams)
     }
 }
 
-void SDLGameObject::update(){
+void SDLGameObject::update()
+{
     // 速度不断提升
     m_velocity += m_acceleration;
     m_position += m_velocity;
@@ -29,5 +30,5 @@ void SDLGameObject::draw()
         m_textureID,
         (int)m_position.getX(), (int)m_position.getY(), m_width, m_height,
         m_currentRow, m_currentFrame,
-        Game::Instance()->getRenderer());
+        Game::Instance()->getRenderer(), (m_velocity.getX() > 0) ? SDL_FLIP_HORIZONTAL : SDL_FLIP_NONE);
 }
